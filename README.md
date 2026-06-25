@@ -1,4 +1,4 @@
-[Download Fix Here](https://github.com/UmbreonShapeshifter/OpenCL-AMD-fix/releases/tag/Release1)
+[Download Fix Here](https://github.com/UmbreonShapeshifter/OpenCL-AMD-fix/releases/)
 
 # OpenCL.dll Installer for AMD Drivers
 
