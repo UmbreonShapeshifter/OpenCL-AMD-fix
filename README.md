@@ -19,7 +19,7 @@ If the `OpenCL.dll` file is already in use by other system processes, the script
 
 ## Features
 
-- Downloads `OpenCL.dll` directly from the official **Khronos Group** GitHub repository.
+- Includes a `OpenCL.dll` directly from the official **Khronos Group** GitHub repository.
 - Installs `OpenCL.dll` to `C:\Windows\System32`.
 - If `OpenCL.dll` is in use, schedules the replacement for the next reboot.
 - Easy-to-use batch script that requires **administrator privileges**.
