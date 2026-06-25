@@ -1,10 +1,10 @@
-[Download Fix Here](https://github.com/sykhangdha/OpenCL-AMD-fix/releases/tag/Release1)
+[Download Fix Here](https://github.com/UmbreonShapeshifter/OpenCL-AMD-fix/releases/)
 
 # OpenCL.dll Installer for AMD Drivers
 
 ## Overview
 
-This batch script is designed to **fix issues with newer AMD driver installers** that may not properly add `OpenCL.dll` to the `C:\Windows\System32` directory. The script automatically **downloads the correct version of OpenCL.dll** directly from the official **Khronos Group** GitHub release and installs it to the system folder.
+This batch script is designed to **fix issues with newer AMD driver installers** that may not properly add `OpenCL.dll` to the `C:\Windows\System32` directory. The script **includes the now current version of OpenCL.dll**. However it's recommended you download directly from the official **Khronos Group** GitHub release to install it to the system folder.
 
 ### Purpose
 
@@ -19,7 +19,7 @@ If the `OpenCL.dll` file is already in use by other system processes, the script
 
 ## Features
 
-- Downloads `OpenCL.dll` directly from the official **Khronos Group** GitHub repository.
+- Includes a `OpenCL.dll` directly from the official **Khronos Group** GitHub repository.
 - Installs `OpenCL.dll` to `C:\Windows\System32`.
 - If `OpenCL.dll` is in use, schedules the replacement for the next reboot.
 - Easy-to-use batch script that requires **administrator privileges**.
@@ -59,12 +59,11 @@ If the `OpenCL.dll` file is already in use by other system processes, the script
 
 ## Source of OpenCL.dll
 
-The script grabs the `OpenCL.dll` file from the following GitHub repository:
+The script does not grab the `OpenCL.dll` file from the following GitHub repository, with the current DLL included from:
 
-- **Khronos Group OpenCL SDK Release:**
-  - [https://github.com/KhronosGroup/OpenCL-SDK/releases/tag/v2024.10.24](https://github.com/KhronosGroup/OpenCL-SDK/releases/tag/v2024.10.24)
+- [**Khronos Group OpenCL SDK Release v2026.05.29**](https://github.com/KhronosGroup/OpenCL-SDK/releases/tag/v2026.05.29)
 
-This ensures that the DLL is the most up-to-date and official version available.
+It's recommended that you download the latest version yourself however to ensure that the DLL is the most up-to-date and official version available.
 
 ---
 
