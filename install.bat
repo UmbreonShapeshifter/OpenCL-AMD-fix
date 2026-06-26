@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableDelayedExpansion
 
-set "URL=https://github.com/sykhangdha/OpenCL-AMD-fix/raw/refs/heads/main/OpenCL.dll"
+set "URL=https://github.com/UmbreonShapeshifter/OpenCL-AMD-fix/raw/refs/heads/main/OpenCL.dll"
 set "TEMPFILE=%TEMP%\OpenCL.dll"
 set "DEST=C:\Windows\System32\OpenCL.dll"
 
@@ -24,7 +24,7 @@ echo The DLL comes from:
 echo   %URL%
 echo
 echo It uses the official OpenCL runtime from:
-echo   https://github.com/KhronosGroup/OpenCL-SDK/releases/tag/v2024.10.24
+echo   https://github.com/KhronosGroup/OpenCL-SDK/releases/tag/v2026.05.29
 echo ================================
 echo.
 
